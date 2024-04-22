@@ -87,6 +87,20 @@ OUTPUT:
 ![image](https://github.com/Desika11/VLSI-LAB-EXP-1/assets/165646570/e24f1589-f8c1-47f5-baaa-2b8d82673383)
 
 
+Fulladder:
+~~~
+module full_adder(a,b,c,sum,carry);
+input a,b,c;
+output sum,carry;
+  assign sum=(a^b^c);
+  assign carry=(a&b)|(b&c)|(a&c);
+endmodule
+~~~
+OUTPUT:
+![image](https://github.com/Desika11/VLSI-LAB-EXP-1/assets/165646570/5a88418d-03bd-488c-a923-36dc99f8dc42)
+![image](https://github.com/Desika11/VLSI-LAB-EXP-1/assets/165646570/26a137dd-55a1-41cb-8a1b-d997fac45ffd)
+
+
 
 
 
