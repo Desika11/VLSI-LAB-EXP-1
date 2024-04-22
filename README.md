@@ -101,6 +101,11 @@ OUTPUT:
 ![image](https://github.com/Desika11/VLSI-LAB-EXP-1/assets/165646570/26a137dd-55a1-41cb-8a1b-d997fac45ffd)
 
 
+Fullsubtractor:
+~~~
+
+
+
 
 
 
