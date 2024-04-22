@@ -1,4 +1,4 @@
-# VLSI-LAB-EXPERIMENTS
+![image](https://github.com/Desika11/VLSI-LAB-EXP-1/assets/165646570/aa69de33-0923-487b-84ad-22f6fe264818)# VLSI-LAB-EXPERIMENTS
 AIM: To simulate and synthesis full adder,full subtractor,half adder,half subtractor,logic gates,ripplecarryadder_4bit,ripplecarryadder_8bit using vivado 2023.2.
 
 APPARATUS REQUIRED: vivado 2023.2
@@ -56,7 +56,7 @@ Full Subtractor:
 
 VERILOG CODE:
 Logicgates:
-~~~
+
 
 
 
