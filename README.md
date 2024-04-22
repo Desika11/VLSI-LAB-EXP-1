@@ -75,6 +75,16 @@ OUTPUT:
 
 Halfadder:
 ~~~
+module half_adder(a,b,sum,carry);
+input a,b;
+output sum,carry;
+or(sum,a,b);
+and(carry,a,b);
+endmodule
+~~~
+OUTPUT:
+![image](https://github.com/Desika11/VLSI-LAB-EXP-1/assets/165646570/3e71c806-6478-4aeb-955c-5d620405b28f)
+![image](https://github.com/Desika11/VLSI-LAB-EXP-1/assets/165646570/e24f1589-f8c1-47f5-baaa-2b8d82673383)
 
 
 
