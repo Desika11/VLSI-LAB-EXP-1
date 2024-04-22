@@ -57,6 +57,22 @@ Full Subtractor:
 VERILOG CODE:
 Logicgates:
 ~~~
+module logicgates(a,b,andgate,orgate,xorgate,nandgate,norgate,xnorgate,notgate);
+input a,b;
+output andgate,orgate,xorgate,nandgate,norgate,xnorgate,notgate;
+and(andgate,a,b);
+or(orgate,a,b);
+xor(xorgate,a,b);
+nand(nandgate,a,b);  
+nor(norgate,a,b);
+xnor(xnorgate,a,b);
+not(notgate,a);
+endmodule
+~~~
+OUTPUT:
+![image](https://github.com/Desika11/VLSI-LAB-EXP-1/assets/165646570/2dc28223-f3a3-4a64-b3a1-d27c8b2a89ca)
+![image](https://github.com/Desika11/VLSI-LAB-EXP-1/assets/165646570/e90ca13d-492b-411c-8004-8a679f1118d8)
+
 
 
 
