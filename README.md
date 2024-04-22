@@ -103,6 +103,22 @@ OUTPUT:
 
 Fullsubtractor:
 ~~~
+module half_subtractor(d,b0,a,b);
+input a,b;
+output d,b0;
+  assign d=a^b;
+  assign b0=(~a)&b;
+endmodule
+~~~
+
+OUTPUT:
+
+![image](https://github.com/Desika11/VLSI-LAB-EXP-1/assets/165646570/518b4bb1-4bef-4d91-83f6-d4d477f98446)
+
+
+8 Bit Ripple Carry Adder:
+~~~
+
 
 
 
